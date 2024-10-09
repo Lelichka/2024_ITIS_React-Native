@@ -12,11 +12,11 @@ const CustomBoxes = () => {
 
     const onSubmitWidth = (value: NativeSyntheticEvent<TextInputSubmitEditingEventData>) => {
         let width = value.nativeEvent.text;
-        width ? setBoxProps({ ...boxProps, width: parseInt(value.nativeEvent.text) }):setBoxProps({ ...boxProps, width: 100})
+        width ? setBoxProps({ ...boxProps, width: parseInt(value.nativeEvent.text) }) : setBoxProps({ ...boxProps, width: 100 })
     }
     const onSubmitHeight = (value: NativeSyntheticEvent<TextInputSubmitEditingEventData>) => {
         let height = value.nativeEvent.text;
-        height ? setBoxProps({ ...boxProps, height: parseInt(value.nativeEvent.text) }):setBoxProps({ ...boxProps, height: 100})
+        height ? setBoxProps({ ...boxProps, height: parseInt(value.nativeEvent.text) }) : setBoxProps({ ...boxProps, height: 100 })
     }
     const onChangeColor = (color: string) => {
         setBoxProps({ ...boxProps, color: color })
@@ -65,7 +65,7 @@ const CustomBoxes = () => {
 }
 export default CustomBoxes;
 
-export const Box = (props: { color: string , width: Int32, height: Int32}) => {
+export const Box = (props: { color: string, width: Int32, height: Int32 }) => {
     return (
         <View style={{
             width: props.width, height: props.height, backgroundColor: props.color

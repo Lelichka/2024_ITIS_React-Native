@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   ScrollView,
   View,
@@ -12,13 +12,12 @@ const App = () => {
   return (
     <ScrollView>
       <DisabledButton />
-      <Divider/>
+      <Divider />
       <TextInputSection />
-      <Divider/>
-      <CustomBoxes/>
-      <Divider/>
+      <Divider />
+      <CustomBoxes />
+      <Divider />
     </ScrollView>
-    
   );
 };
 
