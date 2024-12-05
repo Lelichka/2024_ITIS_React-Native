@@ -18,12 +18,12 @@ export const CharacterCard = (character: CharacterModel) => {
                     {character.dateOfBirth ? <Text
                         style={styles.infoText}>{`Date of birth: ${character.dateOfBirth}`}</Text> : null}
                 </View>
-                <Image
+                {character.image ? <Image
                     source={{
                         uri: character.image,
                     }}
                     style={styles.cardImage}
-                />
+                /> : null}
             </View>
         </ View>
     );

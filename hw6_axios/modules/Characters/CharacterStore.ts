@@ -16,12 +16,26 @@ export class CharacterStore {
 
     getAllCharacters = async () => {
         this.setIsLoading({isLoading: true});
+        const localCharacters = await this.characterService.getCharactersFromLocal();
+        if (localCharacters) {
+            this.setCharacters(localCharacters);
+            this.setIsLoading({isLoading: false});
+            return;
+        }
+
         this.characterService.getAllCharacters()
             .then(res => this.setCharacters(res))
-            .catch(error => console.log(error))
+            .catch(error => {
+                console.log(error);
+                this.setCharacters([]);
+            })
             .finally(() => {
                 this.setIsLoading({isLoading: false});
             });
+    };
+    removeCharactersFromLocalStorage = async () => {
+        await this.characterService.removeCharactersFromLocal();
+        await this.getAllCharacters();
     };
 
     private setIsLoading = ({isLoading: isLoading}: { isLoading: boolean }) => {

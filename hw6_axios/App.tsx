@@ -2,6 +2,7 @@ import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import {HomeScreen} from './screens/HomeScreen.tsx';
+import {styles} from "./styles.ts";
 
 const Stack = createNativeStackNavigator();
 const App = () => {
@@ -11,13 +12,9 @@ const App = () => {
                 <Stack.Screen name={'Home'} component={HomeScreen}
                               options={{
                                   title: 'Harry Potter Characters',
-                                  headerStyle: {backgroundColor: '#1A153F'},
+                                  headerStyle: styles.headerStyle,
                                   headerTitleAlign: 'center',
-                                  headerTitleStyle: {
-                                      fontFamily: 'HarryP-MVZ6w',
-                                      fontSize: 42,
-                                      color: '#FFDB58',
-                                  },
+                                  headerTitleStyle: styles.headerTitleStyle,
                               }}/>
             </Stack.Navigator>
         </NavigationContainer>

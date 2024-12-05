@@ -1,5 +1,5 @@
-import axios, {AxiosInstance, AxiosRequestConfig} from "axios";
-import {Platform} from "react-native";
+import axios, {AxiosInstance, AxiosRequestConfig} from 'axios';
+import {Platform} from 'react-native';
 
 export default class AxiosClient {
     static SUCCESS_STATUSES = [200, 201]; // readonly
@@ -9,7 +9,7 @@ export default class AxiosClient {
 
     constructor(config?: AxiosRequestConfig) {
         this.api = axios.create(config);
-        this.api.defaults.baseURL = this.getDefaultBaseUrl ();
+        this.api.defaults.baseURL = this.getDefaultBaseUrl();
         this.api.defaults.headers.common['App-Platform'] = Platform.OS;
         this.api.defaults.headers.common['Content-Type'] = 'application/json';
     }
