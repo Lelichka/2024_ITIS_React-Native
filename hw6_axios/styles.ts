@@ -7,7 +7,7 @@ export const styles = StyleSheet.create(
             backgroundColor: '#62639B',
             flex: 1,
             justifyContent: 'center',
-            alignItems: 'center'
+            alignItems: 'center',
         },
         card: {
             padding: 10,
@@ -19,12 +19,12 @@ export const styles = StyleSheet.create(
         },
         cardTitle: {
             fontFamily: 'AnimalesFantastic-lGly',
-            color: 'white',
+            color: '#1A153F',
             fontSize: 28,
             marginBottom: 10,
         },
         characterInfo: {flexDirection: 'row', justifyContent: 'space-between'},
-        infoText: {color: 'white'},
+        infoText: {color: '#1A153F'},
         cardImage: {width: 190, height: 240, resizeMode: 'contain'},
 
         headerStyle: {backgroundColor: '#1A153F'},
@@ -34,5 +34,8 @@ export const styles = StyleSheet.create(
             color: '#FFDB58',
         },
         homePageButton: {padding: 10, margin: 5, backgroundColor: '#1A153F'},
+        spellCard: {flexDirection: 'row', padding: 7, margin: 5, borderWidth: 1, backgroundColor: '#8b8cb6'},
+        spellCardHeader: {color: '#1A153F', marginBottom: 10, fontWeight: '700', fontSize: 20},
+        spellCardText: {color: '#1A153F'},
     }
 );
