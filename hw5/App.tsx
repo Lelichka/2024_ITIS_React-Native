@@ -1,14 +1,17 @@
 import React from 'react';
 import {
-  View,
+    View,
 } from 'react-native';
-import {HomeScreen} from "./components/HomeScreen.tsx";
+import {HomeScreen} from './components/HomeScreen.tsx';
+import {GestureHandlerRootView} from 'react-native-gesture-handler';
 
 
 function App(): React.JSX.Element {
-  return (
-    <View><HomeScreen/></View>
-  );
+    return (
+        <GestureHandlerRootView style={{flex: 1}}>
+            <View><HomeScreen/></View>
+        </GestureHandlerRootView>
+    );
 }
 
 

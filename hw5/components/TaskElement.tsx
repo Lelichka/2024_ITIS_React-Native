@@ -1,4 +1,4 @@
-import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {Alert, SafeAreaView, StyleSheet, Text} from 'react-native';
 import {TaskModel} from '../models/TaskModel.tsx';
 import {useRootStore} from '../hooks/useRootStore.tsx';
 import React from 'react';
@@ -7,8 +7,15 @@ import Icon from 'react-native-vector-icons/Ionicons';
 export const TaskElement = (task: TaskModel) => {
     const {toDoListStore} = useRootStore();
 
-    const handleDelete = (id: number) => {
-        toDoListStore.deleteTask(id);
+    const handleDelete = (deletedTask: TaskModel) => {
+        Alert.alert('Delete Task', `Are you sure you want to delete the task ${deletedTask.name}?`, [
+            {
+                text: 'Cancel',
+                onPress: () => console.log('Cancel'),
+                style: 'cancel',
+            },
+            {text: 'OK', onPress: () => toDoListStore.deleteTask(deletedTask.id)},
+        ]);
     };
     const handleCompletedCheckbox = (id: number) => {
         toDoListStore.changeIsCompleted(id);
@@ -22,7 +29,7 @@ export const TaskElement = (task: TaskModel) => {
                   size={28}
                   color={task.isCompleted ? '#9ACD32' : '#808080'}
                   style={styles.taskIcon}/>
-            <Icon onPress={() => handleDelete(task.id)}
+            <Icon onPress={() => handleDelete(task)}
                   name="trash"
                   size={28}
                   color={'#262626'}
@@ -37,7 +44,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         paddingVertical: 10,
         paddingHorizontal: 15,
-        margin: 5,
+        marginVertical: 5,
         borderColor: 'black',
         borderBottomWidth: 1,
     },
