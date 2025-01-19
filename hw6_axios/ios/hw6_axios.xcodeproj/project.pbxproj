@@ -14,8 +14,11 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-hw6_axios-hw6_axiosTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-hw6_axios-hw6_axiosTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9EF8B786AA114601B0D41E85 /* HarryP-MVZ6w.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C3F28DDD77C8467A90B8806E /* HarryP-MVZ6w.ttf */; };
-		3C21B6FACA8F4481BAE40039 /* AnimalesFantastic-lGly.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C8B83BC61C774859BC2FAA11 /* AnimalesFantastic-lGly.ttf */; };
+		CE33D22288944738B8631841 /* AmaticSC-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B521C72C71FF4A4AAC4ABF36 /* AmaticSC-Bold.ttf */; };
+		0B3C4D1AF9304D6F9B5935ED /* AmaticSC-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0321A6389DD24A55A2400BAF /* AmaticSC-Regular.ttf */; };
+		9F54EBB9F1A447A4ACD4D734 /* Bangers-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C116AD8F9D0B427D95A262EF /* Bangers-Regular.ttf */; };
+		8B19AAF0688A42C4AE46BCF9 /* Unkempt-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 150D542BACB34BA982137CDC /* Unkempt-Bold.ttf */; };
+		53B7E8AD32554C6E948084AF /* Unkempt-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 65E0C27493194E14B5AEF685 /* Unkempt-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,8 +50,11 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = hw6_axios/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-hw6_axios-hw6_axiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hw6_axios-hw6_axiosTests.release.xcconfig"; path = "Target Support Files/Pods-hw6_axios-hw6_axiosTests/Pods-hw6_axios-hw6_axiosTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		C3F28DDD77C8467A90B8806E /* HarryP-MVZ6w.ttf */ = {isa = PBXFileReference; name = "HarryP-MVZ6w.ttf"; path = "../assets/fonts/HarryP-MVZ6w.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C8B83BC61C774859BC2FAA11 /* AnimalesFantastic-lGly.ttf */ = {isa = PBXFileReference; name = "AnimalesFantastic-lGly.ttf"; path = "../assets/fonts/AnimalesFantastic-lGly.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B521C72C71FF4A4AAC4ABF36 /* AmaticSC-Bold.ttf */ = {isa = PBXFileReference; name = "AmaticSC-Bold.ttf"; path = "../src/assets/fonts/AmaticSC-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0321A6389DD24A55A2400BAF /* AmaticSC-Regular.ttf */ = {isa = PBXFileReference; name = "AmaticSC-Regular.ttf"; path = "../src/assets/fonts/AmaticSC-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C116AD8F9D0B427D95A262EF /* Bangers-Regular.ttf */ = {isa = PBXFileReference; name = "Bangers-Regular.ttf"; path = "../src/assets/fonts/Bangers-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		150D542BACB34BA982137CDC /* Unkempt-Bold.ttf */ = {isa = PBXFileReference; name = "Unkempt-Bold.ttf"; path = "../src/assets/fonts/Unkempt-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		65E0C27493194E14B5AEF685 /* Unkempt-Regular.ttf */ = {isa = PBXFileReference; name = "Unkempt-Regular.ttf"; path = "../src/assets/fonts/Unkempt-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +164,11 @@
 		87D194B5480A48CABA4EA5FB /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				C3F28DDD77C8467A90B8806E /* HarryP-MVZ6w.ttf */,
-				C8B83BC61C774859BC2FAA11 /* AnimalesFantastic-lGly.ttf */,
+				B521C72C71FF4A4AAC4ABF36 /* AmaticSC-Bold.ttf */,
+				0321A6389DD24A55A2400BAF /* AmaticSC-Regular.ttf */,
+				C116AD8F9D0B427D95A262EF /* Bangers-Regular.ttf */,
+				150D542BACB34BA982137CDC /* Unkempt-Bold.ttf */,
+				65E0C27493194E14B5AEF685 /* Unkempt-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -260,8 +269,11 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				9EF8B786AA114601B0D41E85 /* HarryP-MVZ6w.ttf in Resources */,
-				3C21B6FACA8F4481BAE40039 /* AnimalesFantastic-lGly.ttf in Resources */,
+				CE33D22288944738B8631841 /* AmaticSC-Bold.ttf in Resources */,
+				0B3C4D1AF9304D6F9B5935ED /* AmaticSC-Regular.ttf in Resources */,
+				9F54EBB9F1A447A4ACD4D734 /* Bangers-Regular.ttf in Resources */,
+				8B19AAF0688A42C4AE46BCF9 /* Unkempt-Bold.ttf in Resources */,
+				53B7E8AD32554C6E948084AF /* Unkempt-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

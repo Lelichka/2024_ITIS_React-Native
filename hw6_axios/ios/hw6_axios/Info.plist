@@ -49,8 +49,11 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>HarryP-MVZ6w.ttf</string>
-		<string>AnimalesFantastic-lGly.ttf</string>
+		<string>AmaticSC-Bold.ttf</string>
+		<string>AmaticSC-Regular.ttf</string>
+		<string>Bangers-Regular.ttf</string>
+		<string>Unkempt-Bold.ttf</string>
+		<string>Unkempt-Regular.ttf</string>
 	</array>
 </dict>
 </plist>
