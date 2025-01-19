@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9ccaad2-5547-4b72-b72f-2a1c204d3596" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/hw10/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/hw10/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw10/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw10/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/hw10/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/hw10" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2pRODPEiW9yhJvDteH6CNQBIO2p" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/ITIS/2024-2025/ReactNative/react-repo/2024_ITIS_React-Native/hw6_axios",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "D:\\ITIS\\2024-2025\\ReactNative\\react-repo\\2024_ITIS_React-Native\\hw10\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ITIS\2024-2025\ReactNative\react-repo\2024_ITIS_React-Native\hw6_axios" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9ccaad2-5547-4b72-b72f-2a1c204d3596" name="Changes" comment="" />
+      <created>1732725304971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732725304971</updated>
+      <workItem from="1732725308861" duration="4697000" />
+      <workItem from="1732799461369" duration="59000" />
+      <workItem from="1732799706087" duration="230000" />
+      <workItem from="1732799992742" duration="14777000" />
+      <workItem from="1736489625947" duration="1640000" />
+      <workItem from="1737194857055" duration="2809000" />
+      <workItem from="1737200278564" duration="7679000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
