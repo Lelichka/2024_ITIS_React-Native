@@ -14,6 +14,70 @@
       "sha1": "16e3bc27f1343b6661711eaacb999be3307790d4"
     },
     {
+      "path": "src/assets/fonts/OFL.txt",
+      "sha1": "ba704e0a774931ea81c954037fd0d626e7aee890"
+    },
+    {
+      "path": "src/assets/fonts/README.txt",
+      "sha1": "ad36e4dadb159457d29563abd4d064af72d84643"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-Bold.ttf",
+      "sha1": "01c373978879c1268c41691c2797d73b13b70049"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-BoldItalic.ttf",
+      "sha1": "0435552a613bf9b10c12d3e06ed7d0fdb02ee1a3"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-ExtraBold.ttf",
+      "sha1": "e3d96d8b85547f649407b17b907830c2499adc9d"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-ExtraBoldItalic.ttf",
+      "sha1": "2205183b2cb6d8bab05d0498b043aba2f9a68d51"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-Italic-VariableFont_BNCE,INFM,SPAC,wght.ttf",
+      "sha1": "da21e9c037b6bbdfd36d342bce36e5f9e84afecc"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-Italic.ttf",
+      "sha1": "ba6f42ad36bfc10c2661303f83de73f853e471f7"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-Light.ttf",
+      "sha1": "1f7ede38f5a5fe05b5dacc6d9a2abafe35b57b86"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-LightItalic.ttf",
+      "sha1": "90279c76fd9a82f782e864f4fec1d32598b3676e"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-Medium.ttf",
+      "sha1": "39d50803df211161d22f92ff0c8e5cf6ce6bff35"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-MediumItalic.ttf",
+      "sha1": "71df9d3478bbc3ed46b3ef86bc5dd4fd52c5cc98"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-Regular.ttf",
+      "sha1": "30a1ac8780fa24e236f8c152b5b7d583224ad7bc"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-SemiBold.ttf",
+      "sha1": "b6ef6db091203f5da4521ad1f1976cae3b40b903"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-SemiBoldItalic.ttf",
+      "sha1": "4c1dfdf7025d6e94c334aef5b006498f5408f99b"
+    },
+    {
+      "path": "src/assets/fonts/ShantellSans-VariableFont_BNCE,INFM,SPAC,wght.ttf",
+      "sha1": "caa581446e68671733506a422bb35346c8623e04"
+    },
+    {
       "path": "src/assets/fonts/Unkempt-Bold.ttf",
       "sha1": "8f9dccec19f4f508f053e4dc589b839edbcdb39e"
     },

@@ -1,0 +1,17 @@
+{
+  "settings": {
+    "header": "Settings",
+    "text_change_theme": "Select the color theme of the application:",
+    "change_lang": "Change language",
+    "theme": {
+      "light": "Light theme",
+      "dark": "Dark theme",
+      "system": "System theme",
+      "custom": "Custom theme"
+    }
+  },
+  "tabs": {
+    "main": "Main",
+    "settings": "Settings"
+  }
+}

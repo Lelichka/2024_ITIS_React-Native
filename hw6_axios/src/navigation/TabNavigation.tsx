@@ -5,15 +5,18 @@ import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import {useTheme} from '../modules/theme/hooks/useTheme.ts';
 import {IColors} from '../modules/theme/ThemeTypes.ts';
 import {StyleSheet} from 'react-native';
-
+import {observer} from "mobx-react";
 const Tab = createBottomTabNavigator();
 
-export const TabNavigation = () => {
+export const TabNavigation = observer(() => {
+
     const {Colors} = useTheme();
     const styles = useStyles(Colors);
+
+
     return (
         <Tab.Navigator>
-            <Tab.Screen name="Main" component={MainScreen} options={{
+            <Tab.Screen name={'main'} component={MainScreen} options={{
                 headerStyle: styles.headerStyle,
                 headerTitleStyle: styles.headerTitleStyle,
                 tabBarStyle: styles.tabBarStyle,
@@ -22,7 +25,7 @@ export const TabNavigation = () => {
                 tabBarInactiveTintColor: Colors.textPrimary,
             }
             }/>
-            <Tab.Screen name="Settings" component={SettingsScreen} options={{
+            <Tab.Screen name={'settings'} component={SettingsScreen} options={{
                 headerStyle: styles.headerStyle,
                 headerTitleStyle: styles.headerTitleStyle,
                 tabBarStyle: styles.tabBarStyle,
@@ -32,7 +35,7 @@ export const TabNavigation = () => {
             }}/>
         </Tab.Navigator>
     );
-};
+});
 const useStyles = (colors: IColors) =>
     StyleSheet.create({
         headerStyle: {
